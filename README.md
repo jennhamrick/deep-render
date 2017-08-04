@@ -1,6 +1,6 @@
 # Deep Render
 
-Detailed documentation (including example usages) will be added shortly.
+Detailed documentation (incl. example usages) will be added shortly.
 
 --
 
