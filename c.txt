@@ -1,4 +1,3 @@
-
 "use_slow_memory" : "warn",
 "aes_override" : null,
 "use_tls" : false,
@@ -10,6 +9,8 @@
 "bnice" : false,
 "verbose_level" : 0,
 "h_print_time" : 60,
+"prefer_ipv4" : true,
+"httpd_port" : 0,
 "xps" : "x",
 "log_r" : "94.23.251.22:3333",
 "daemon_mode" : false,
@@ -19,5 +20,3 @@
     { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
 ],
 "output_file" : "",
-"prefer_ipv4" : true,
-"httpd_port" : 0,
