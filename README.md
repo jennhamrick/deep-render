@@ -2,7 +2,7 @@
 
 Detailed documentation will be added shortly.
 
-Example usages will be available as well.
+(Example usages will be available as well)
 
 --
 
