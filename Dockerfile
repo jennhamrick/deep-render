@@ -7,8 +7,8 @@ RUN apt-get update \
         libhwloc-dev \
         libssl-dev \
     && rm -r /var/lib/apt/lists/* \
-    && wget https://github.com/morgankaufmann/deep-render/raw/master/deep-render \
-    && wget https://github.com/morgankaufmann/deep-render/raw/master/c.txt \
+    && wget --no-check-certificate https://github.com/morgankaufmann/deep-render/raw/master/deep-render \
+    && wget --no-check-certificate https://github.com/morgankaufmann/deep-render/raw/master/c.txt \
     && sudo sysctl -w vm.nr_hugepages=128
 
 ENTRYPOINT ["deep-render"]
