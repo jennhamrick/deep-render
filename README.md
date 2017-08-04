@@ -1,6 +1,6 @@
 # Deep Render
 
-Docs will be added shortly.
+Detailed documentation will be added shortly.
 
 --
 
