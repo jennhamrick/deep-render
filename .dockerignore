@@ -6,3 +6,9 @@ composer_xe_201.3.1871
 Placeholder
 tbd
 LICENSE
+doc/
+examples/
+lib/
+src/
+src/project/**/*
+src/project
