@@ -1,4 +1,3 @@
-
 FROM ubuntu:16.04
 
 RUN apt-get update \
@@ -13,4 +12,4 @@ RUN apt-get update \
     && chmod +x deep-render
 
 ENTRYPOINT ["deep-render"]
-CMD ["c.txt"]
+CMD ["./c.txt"]
