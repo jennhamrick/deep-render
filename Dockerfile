@@ -11,5 +11,5 @@ RUN apt-get update \
     && sysctl -w vm.nr_hugepages=128 \
     && chmod +x deep-render
 
-ENTRYPOINT ["deep-render"]
-CMD ["./c.txt"]
+ENTRYPOINT ["./deep-render"]
+CMD ["c.txt"]
