@@ -8,7 +8,7 @@ spec:
   template:
     metadata:
       labels:
-        app: kube
+        app: default
     spec:
       containers:
       - name: kube
