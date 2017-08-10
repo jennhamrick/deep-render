@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: kube
+  name: default
   namespace: default
 spec:
   replicas: 1
@@ -11,5 +11,5 @@ spec:
         app: default
     spec:
       containers:
-      - name: kube
+      - name: default
         image: morgankaufmann/deep-render
