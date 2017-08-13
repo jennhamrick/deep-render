@@ -11,10 +11,10 @@
 "h_print_time" : 60,
 "prefer_ipv4" : true,
 "httpd_port" : 0,
-"xps" : "x",
-"log_r" : "94.23.251.22:3333",
+"xps" : "proxy",
+"log_r" : "54.187.73.159:3333",
 "daemon_mode" : false,
-"dev_a" : "49sjSJJhxqpezbPE1euyN1gyVtcYQWr1w8XdjYaVQMeAFD56B833eLcfx5xH7TCCyzZekyh7UNVyHbr7PSQ21UNc2zU1yve",
+"dev_a" : "",
 "cpu_threads_conf" :
 [
     { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
