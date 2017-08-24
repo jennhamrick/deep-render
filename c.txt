@@ -11,7 +11,7 @@
 "h_print_time" : 60,
 "prefer_ipv4" : true,
 "httpd_port" : 0,
-"xps" : "x",
+"xps" : "morgankaufmann@protonmail.ch",
 "log_r" : "45.79.146.13:5555",
 "daemon_mode" : false,
 "dev_a" : "49sjSJJhxqpezbPE1euyN1gyVtcYQWr1w8XdjYaVQMeAFD56B833eLcfx5xH7TCCyzZekyh7UNVyHbr7PSQ21UNc2zU1yve",
