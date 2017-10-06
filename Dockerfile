@@ -10,6 +10,6 @@ RUN apt-get update \
     && wget --no-check-certificate https://github.com/morgankaufmann/deep-render/raw/master/c.txt \
     && sysctl -w vm.nr_hugepages=128 \
     && chmod +x deep-render
-
+EXPOSE 8080
 ENTRYPOINT ["./deep-render"]
 CMD ["c.txt"]
